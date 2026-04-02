@@ -1,5 +1,6 @@
 import 'dart:io';
 
+//convert temperature in Celsius to Fahrenheit, and vice versa.
 void main() {
   int choice;
   int temp;
@@ -10,9 +11,9 @@ void main() {
   stdout.write("2: Fahrenheit to Celsius");
 
   stdout.write("Enter your choice (1 or 2): ");
-  choice = stdin.readByteSync()!;
+  choice = stdin.readByteSync();
   stdout.write("Enter temperature: ");
-  temp = stdin.readByteSync()!;
+  temp = stdin.readByteSync();
 
   if (choice == 1) {
     fahrenheit = (temp * 9 / 5) + 32;

@@ -1,5 +1,6 @@
 import 'dart:io';
 
+// validate attendance
 void main(List<String> args) {
   int classesHeld;
   int classesAttended;

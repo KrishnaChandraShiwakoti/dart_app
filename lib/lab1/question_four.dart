@@ -1,5 +1,6 @@
 import "dart:io";
 
+//  to print a new number with digits reversed from the original one
 void main() {
   int digits;
   String digitsToString;
